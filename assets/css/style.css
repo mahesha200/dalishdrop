@@ -1,0 +1,138 @@
+body {
+  background-color: beige;
+}
+
+.main-banner {
+  width: 100%;
+  background-image: url('../images/background-image.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-banner h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.main-slider .item {
+  position: relative;
+}
+
+.main-slider .item img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.caption h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.caption p {
+  font-size: 1.2em;
+}
+
+/* menu page  */
+.menu-header {
+  padding: 30px 0 30px 0;
+}
+
+.menu-item {
+  margin-bottom: 54px;
+}
+
+.menu-item>img {
+  width: 100%;
+}
+
+.menu-item .details {
+  margin: 11px 0 0 0;
+  text-align: left;
+  padding: 5px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: initial;
+  border: 1px solid #0000;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.cart-button,
+.cart-button:hover,
+.cart-button:active {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+  width: 100%;
+}
+
+/* blog page */
+
+.blog-item {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 44px;
+}
+
+.blog-item>img {
+  width: 100%;
+}
+
+.blog-item>.details>h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 29px;
+}
+
+.blog-item .details {
+  position: absolute;
+  top: 0;
+  background: #ffffffcf;
+  height: -webkit-fill-available;
+  width: 94%;
+  padding: 26px;
+  border-top: 1.2px solid red;
+  transition: padding 0.3s, background-color 0.3s, opacity 0.3s;
+}
+
+.blog-item:hover {
+  .details {
+    opacity: 0;
+  }
+
+  .btn.read-more {
+    opacity: 100%;
+    z-index: 999;
+  }
+}
+
+.blog-item .btn.read-more {
+  width: 100%;
+  background: #ff0000;
+  color: #fff;
+  border-radius: 0;
+  margin-top: -37px;
+  opacity: 0;
+}
