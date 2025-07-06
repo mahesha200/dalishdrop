@@ -1,5 +1,10 @@
 body {
   background-color: beige;
+  background-image: url('../images/about/about-wrapper.jpg')
+}
+
+li.nav-item {
+  margin: 0 11px 0 11px;
 }
 
 .main-banner {
@@ -120,6 +125,7 @@ body {
 .blog-item:hover {
   .details {
     opacity: 0;
+    z-index: 1;
   }
 
   .btn.read-more {
@@ -135,4 +141,22 @@ body {
   border-radius: 0;
   margin-top: -37px;
   opacity: 0;
+}
+
+/* about page  */
+
+.about-container {
+  .card-header {
+    background: transparent;
+
+    h4 {
+      padding: 9px 0 0;
+      font-weight: 700;
+    }
+  }
+
+  .card {
+    margin-top: 63px;
+    margin-bottom: 63px;
+  }
 }

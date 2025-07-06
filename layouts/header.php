@@ -32,7 +32,6 @@
       <ul class="navbar-nav mr-auto">
          <li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>">Home</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('menu.php'); ?>">Menu</a></li>
-         <li class="nav-item"><a class="nav-link" href="<?php echo site_url('features.php'); ?>">Features</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('about.php'); ?>">About</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('blog.php'); ?>">Blog</a></li>
       </ul>
